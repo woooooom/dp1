@@ -18,25 +18,15 @@ cd webprogramozas
 ls
 ```
 
-4. Hozz létre egy új mappát `dp1` néven:
+4. Klónozd le a megadott GitHub repót:
+
+> [!CAUTION]
 
 ```powershell
-mkdir dp1
+git clone a SAJÁT REPOD LINKJE
 ```
 
-5. Navigálj bele a `dp1` mappába:
-
-```powershell
-cd dp1
-```
-
-6. Klónozd le a megadott GitHub repót (fake link):
-
-```powershell
-git clone https://github.com/GanzSchool/dp1.git
-```
-
-7. Ha kész vagy, állítsd le a logolást:
+5. Ha kész vagy, állítsd le a logolást:
 
 ```powershell
 Stop-Transcript
@@ -44,9 +34,8 @@ Stop-Transcript
 
 ---
 
-### ⚠️ **CAUTION**
-
-> A feladat során **TILOS mesterséges intelligencia vagy bármilyen más segédeszköz használata**.
+> [!CAUTION]
+> A feladat során **TILOS mesterséges intelligencia vagy bármilyen más segédeszköz használata - rajta kapás esetén 3db egyes!**.
 > Amennyiben a mappa topológiája hibás, most még kijavíthatod.
 > Ha így kerül beadásra, a teljes dolgozat **elégtelen** minősítést kap.
 
@@ -55,7 +44,6 @@ Stop-Transcript
 ## 🔹 2. blokk – Új repo megnyitása és második logolás
 
 1. Visual Studio Code-ban nyisd meg a most létrehozott **dp1** repozitóriumot.
-   (pl. `File > Open Folder…` vagy terminálból `code .`)
 2. Indítsd el újra a logolást, most a `log02.txt` fájlba:
 
 ```powershell
@@ -128,4 +116,7 @@ git push
 Stop-Transcript
 ```
 
+> [!IMPORTANT]
+> Add meg ki még egyszer a feltőltést, hogy log2.txt is bekerüljön!
+> Ellenőrizd le, hogy minden file és log1 és log2 file is feltöltésre került!
 
