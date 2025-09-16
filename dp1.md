@@ -48,7 +48,7 @@ Stop-Transcript
 
 > A feladat során **TILOS mesterséges intelligencia vagy bármilyen más segédeszköz használata**.
 > Amennyiben a mappa topológiája hibás, most még kijavíthatod.
-> Ha így kerül beadásra, a teljes dolgozat **elégtelen (3 db egyes)** minősítést kap.
+> Ha így kerül beadásra, a teljes dolgozat **elégtelen** minősítést kap.
 
 ---
 
@@ -127,4 +127,5 @@ git push
 ```powershell
 Stop-Transcript
 ```
+
 
