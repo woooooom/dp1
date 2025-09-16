@@ -14,17 +14,16 @@ Start-Transcript -Path .\log01.txt -Append
 3. Navigálj a `webprogramozas/` mappába:
 
 ```powershell
-cd webprogramozas
+cd z://webprogramozas
 ls
 ```
 
-4. Klónozd le a megadott GitHub repót:
+4. Forkold le és utána Klónozd le a megadott GitHub repót konzolon!:
 
-> [!CAUTION]
-
-```powershell
-git clone a SAJÁT REPOD LINKJE
-```
+> [!caution]
+> ```powershell
+> git clone a SAJÁT REPOD LINKJE
+> ```
 
 5. Ha kész vagy, állítsd le a logolást:
 
@@ -119,4 +118,5 @@ Stop-Transcript
 > [!IMPORTANT]
 > Add meg ki még egyszer a feltőltést, hogy log2.txt is bekerüljön!
 > Ellenőrizd le, hogy minden file és log1 és log2 file is feltöltésre került!
+
 
